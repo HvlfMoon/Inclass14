@@ -6,7 +6,7 @@
 html {
   font-family: Helvetica, sans-serif;
   color: black;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 body {
@@ -25,11 +25,10 @@ header, footer{
 }
 
 .navLogo {
-  font-size: 2.9rem;
-  font-weight: 700;
-  padding: 10px;
+  font-size: 2rem;
   font-weight: 900;
-  font-style: normal;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
 main {
@@ -41,7 +40,7 @@ main {
 }
 
 h2 {
-  padding: 2vw 0;
+  padding: 2vw 0 0.5vw 1vw;
   color: #232946;
 }
 
@@ -52,23 +51,25 @@ p b {
 .cat {
   display: flex;
   flex-direction: column;
-  background-color: #fff;
+  background-color: #f9f8fc;
   border-radius: 10px;
-  border: 2px solid #eee;
+  border: 3px solid #a786df;
   padding: 1rem;
   overflow: hidden;
 }
 
 img {
   width: 100%;
-  height: 60%;
+  height: 50%;
 }
+
 
 .ruler {
   padding-left: 10px;
   padding-top: 10px;
-  width: 5%;
+  width: 20px;
   height: auto;
+  margin-right: 0.2rem;
 }
 
 .size {
@@ -78,16 +79,14 @@ img {
 }
 
 .fact {
-  border-top: 1px solid #ddd;
+  border-top: 2px solid #b8c1ec ;
   padding-top: 0.75rem;
   line-height: 1.5;
 }
 
+footer {
+  height: 2vh;
+}
 footer p {
   font-size: .8rem;
-}
-
-
-.bear {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
 }
